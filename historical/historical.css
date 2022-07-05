@@ -1,0 +1,36 @@
+#pageholder
+{
+    background-color: rgb(225, 228, 225);
+    text-align: center;
+}
+#pageholder h2
+{
+    font-family:fantasy;
+    font-size:50px;
+}
+#pageholder h3
+{
+    font-family:cursive;
+    font-size:40px;
+}
+#imgholder ul 
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#imgholder img
+{
+    width:300px;
+    height:200px;
+    list-style: none;
+}
+.left
+{
+
+    margin-left:40px;
+
+}
+.kingpics img{
+    width: 500px;
+}

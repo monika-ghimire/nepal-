@@ -1,0 +1,102 @@
+#navbar ul li 
+{
+position: relative;
+}
+
+#navbar ul  ul
+{
+display:none;
+position: absolute;
+background-color: #f1f1f1;
+
+}
+#navbar ul :hover ul
+{
+display:block;
+position: absolute;
+background-color:gainsboro;
+}
+
+
+
+#navbar ul li ul li 
+{
+width:180px;
+}
+
+
+#navbar
+{
+    background-color:rgb(29, 94, 29);
+        padding:3px 30px;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+}
+#navbar a
+{
+    text-decoration: none;
+}
+.left
+{
+    font-size:30px;
+    margin-left:20px;
+    color: rgb(248, 246, 246);
+
+}
+#navbar li{
+    list-style: none;
+}
+#navbar ul :hover
+{
+    background-color: rgb(93, 212, 93);
+    color: rgb(4, 4, 4);
+}
+#map{
+    text-align: center;
+    padding:3px 30px;
+    justify-content: center;
+}
+#map img
+{
+    width: 900px;
+}
+#images ul
+{
+    display: flex;
+}
+#images li
+   {
+      
+        background-color: #f1f1f1;
+        margin: 0px 5px;
+        list-style: none;
+    }
+    #images img
+    {
+        width: 400px;
+        height:300px;
+    }
+#earth
+{
+    text-align: center;
+}
+
+#earthimg ul
+{
+    display: flex;
+    justify-content: center;
+}
+#earthimg li
+   {
+      
+        background-color: #f1f1f1;
+        margin: 0px 5px;
+        list-style: none;
+    }
+    #earthimg img
+    {
+        width: 300px;
+        height:300px;
+    }
